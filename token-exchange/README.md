@@ -7,7 +7,7 @@ Client App (opaque AT) -> API GW -> Service-1 ->Service-2
 ## Curity Setup to run the example
 1. Create 4 OAuth clients in the token service profile to run the example.
 
-| Client ID           | Minimum Capabilities  | Scopes                           | Notes                                                          |
+| Client ID           | Capabilities          | Scopes                           | Notes                                                          |
 | --------------------|:----------------------| ---------------------------------|----------------------------------------------------------------|
 | www                 | code                  | openid profile read write delete | Client App OAuth Client authorized by the user
 | api-gw              | token-exchange        | openid profile read write delete | API gateway exchanges original token for a token with same scopes
